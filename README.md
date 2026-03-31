@@ -436,19 +436,4 @@ Claude Code includes a full Computer Use implementation, internally codenamed **
 ### Pricing
 For anyone wondering - all pricing in [`utils/modelCost.ts`](https://github.com/soufianebouaddis/claude-code/blob/main/utils/modelCost.ts) matches [Anthropic's public pricing](https://docs.anthropic.com/en/docs/about-claude/models) exactly. Nothing newsworthy there.
 
----
-
-## Final Thoughts
-
-This is, without exaggeration, one of the most comprehensive looks we've ever gotten at how *the* production AI coding assistant works under the hood. Through the actual source code.
-
-A few things stand out:
-
-**The engineering is genuinely impressive.** This isn't a weekend project wrapped in a CLI. The multi-agent coordination, the dream system, the three-gate trigger architecture, the compile-time feature elimination - these are deeply considered systems.
-
-**There's a LOT more coming.** KAIROS (always-on Claude), ULTRAPLAN (30-minute remote planning), the Buddy companion, coordinator mode, agent swarms, workflow scripts - the codebase is significantly ahead of the public release. Most of these are feature-gated and invisible in external builds.
-
-**The internal culture shows.** Animal codenames (Tengu, Fennec, Capybara), playful feature names (Penguin Mode, Dream System), a Tamagotchi pet system with gacha mechanics. Some people at Anthropic is having fun.
-
-If there's one takeaway this has, it's that security is hard. But `.npmignore` is harder, apparently :P
 
