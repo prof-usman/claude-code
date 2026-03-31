@@ -1,6 +1,6 @@
 # Claude Code's Entire Source Code Got Leaked via a Sourcemap in npm
 
-> There's also a non-zero chance this repo might be taken down, so if you want to play around with it later, or archive it yourself, feel free to fork it & bookmark the external blog link !
+> There's also a non-zero chance this repo might be taken down, so if you want to play around with it later, or archive it yourself, feel free to fork it 
 
 Earlier today (March 31st, 2026) - Chaofan Shou on X discovered something that Anthropic probably didn't want the world to see: the **entire source code** of Claude Code, Anthropic's official AI coding CLI, was sitting in plain sight on the npm registry via a sourcemap file bundled into the published package.
 
